@@ -1,0 +1,16 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "dev": "gaman dev"
+  },
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gaman": "^0.0.11"
+  }
+}

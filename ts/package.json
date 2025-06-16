@@ -1,0 +1,22 @@
+{
+  "name": "gaman-template-ts",
+  "version": "1.0.0",
+  "main": "dist/src/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "gaman dev --exec tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "gaman": "^0.0.11"
+  }
+}

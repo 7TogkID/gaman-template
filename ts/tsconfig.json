@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noEmit": false, // Mengizinkan TypeScript untuk menghasilkan file .js
+    "target": "ES2020", // Target ECMAScript (ES6, ESNext, dll.)
+    "module": "commonjs", // Sistem modul (commonjs, esnext, dll.)
+    "outDir": "./dist", // Direktori keluaran file build
+    "strict": true, // Mengaktifkan semua pemeriksaan ketat
+    "esModuleInterop": true, // Dukungan impor untuk CommonJS dan ES Module
+    "experimentalDecorators": true, // Mendukung dekorator
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "baseUrl": ".", // Basis jalur relatif
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "paths": {
+      "*": ["./src/*"], // Alias ke direktori src
+    }
+  },
+  "tsc-alias": {
+    "resolveFullPaths": true,
+    "verbose": false
+  },
+  "include": ["./src/**/*", "package.json"], // File yang akan dikompilasi
+  "exclude": ["node_modules", "dist"] // File/direktori yang akan diabaikan
+}
