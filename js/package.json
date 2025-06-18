@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "gaman-app",
   "version": "1.0.0",
   "main": "src/main.js",
   "type": "module",
@@ -11,6 +11,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "gaman": "^0.0.11"
+    "gaman": "^0.0.12"
   }
 }
