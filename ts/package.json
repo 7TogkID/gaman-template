@@ -1,5 +1,5 @@
 {
-  "name": "gaman-template-ts",
+  "name": "gaman-app",
   "version": "1.0.0",
   "main": "dist/src/main.js",
   "type": "commonjs",
@@ -17,6 +17,6 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "gaman": "^0.0.11"
+    "gaman": "^0.0.12"
   }
 }
