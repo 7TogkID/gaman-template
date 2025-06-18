@@ -6,7 +6,8 @@
   "keywords": [],
   "author": "",
   "scripts": {
-    "dev": "gaman dev"
+    "dev": "gaman dev",
+    "dev:bun": "bun run --watch src/main"
   },
   "license": "ISC",
   "description": "",
