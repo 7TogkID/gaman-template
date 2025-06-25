@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/PowerEssentials">
+  <a href="https://github.com/7TogkID/gaman">
     <img src=".github/images/gaman.png" width="25%">
   </a>
 </p>
@@ -26,34 +26,16 @@
 - **Extensible Design:** Add your logic to enhance or modify the framework with minimal effort.
 - **Lightweight & Performant:** Built with efficiency in mind, GamanJS is designed to handle real-world applications with ease.
 
-## 🚀 Support Runtime
-
-| Runtime    | Status |
-| ---------- | ------ |
-| Node       | ✅     |
-| Bun        | ✅     |
-| Deno       | ⌛     |
-| AWS        | ⌛     |
-| Cloudflare | ⌛     |
-| Fastly     | ⌛     |
-
 ## 🚀 Get Started
+For complete documentation, examples, and best practices, visit the **GamanWiki**:  
+[https://github.com/7TogkID/gaman/wiki](https://github.com/7TogkID/gaman/wiki)
 
 ### Install the CLI
 
 You can install the GamanJS CLI globally using your preferred package manager:
 
 ```bash
-# Using npm
-npm i @gaman/cli -g
-
-# Using Bun
-bun install -g @gaman/cli
-
-# Using pnpm
-pnpm add -g @gaman/cli
-
-#or others...
+npm i -g @gaman/cli 
 ```
 
 ### Create a New Project
@@ -71,14 +53,8 @@ This will scaffold a new GamanJS project with the necessary structure.
 Start your server with:
 
 ```bash
-# Using @gaman/cli
-gaman dev
-
 # Using Node
 npm run dev
-
-# Using Bun
-bun run dev
 ```
 
 ## 🛠 Updating the CLI
